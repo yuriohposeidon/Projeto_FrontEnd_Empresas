@@ -1,0 +1,76 @@
+.hiring__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vh;
+    height: 400px;
+
+    background-color: var(--color-grey-5);
+
+    margin: 0 auto;
+    margin-top: 40px;
+
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.hire{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title__company{
+    text-align: center;
+
+    font-size: 32px;
+    font-weight: 700;
+
+    background-color: var(--color-blue);
+    color: var(--color-grey-5);
+
+    padding: 10px;
+
+    margin-bottom: 40px;
+}
+
+.card__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+    padding: 15px;
+
+    width: 303px;
+    height: 61px;
+
+    border: 1px solid var(--color-blue);
+}
+
+.card__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name__companion{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.level__companion{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.show__modal{
+    background-image: url(../../images/Edit.svg);
+    width: 30px;
+    height: 30px;
+
+    border-color: transparent;
+    background-color: transparent;
+
+    cursor: pointer;
+}

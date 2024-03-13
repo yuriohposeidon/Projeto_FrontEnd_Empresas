@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/form.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Kenzie Empresas</title>
+</head>
+<body>
+    <header>
+        <div class="mobile__organization">
+            <div class="name__header">
+            <img class="eclipse" src="../images/Eclipse.svg" alt="eclipse">
+            <span class="name__companie">Kenzie Empresas</span>
+            </div>
+        
+            <div class="menu hidden">
+                <button class="home__header"> Home </button>
+                <button class="login__header"> Login </button>
+            </div>
+        </div>
+        <button class="button__hidden"><img src="../images/Vector.svg" alt="seta"> </button>
+    </header>
+<main>
+    <section class="section__container">
+            
+            <form class="register">
+            <h2 class="register__title">Cadastre-se</h2>
+            <label class="name__form" for="yourName"></label>
+            <input class="inputs"
+            type="text" 
+            name="username" 
+            id="yourName"
+            placeholder="Seu nome"
+            required
+            >
+
+            <label class="email__form" for="yourEmail"></label>
+            <input class="inputs"
+            type="email" 
+            name="email" 
+            id="yourEmail"
+            placeholder="Seu e-mail"
+            required
+            >
+
+            <label class="password__form" for="yourPassword"></label>
+            <input class="inputs"
+            type="password" 
+            name="password" 
+            id="yourPassword"
+            placeholder="Sua senha"
+            required
+            >
+
+            <label class="nivel__form" for="yourLevel"></label>
+            <select class="inputs"
+                name="professional_level" required
+                placeholder="Nivel Profissional">
+                <option>Nivel Profissional</option>
+                <option value="júnior">Junior</option>
+                <option value="pleno" >Pleno</option>
+                <option value="sênior" >Sênior</option>
+            </select>
+
+            <div class="button__container">
+            <button class="register__button">Cadastre-se</button>
+            <button type="button" class="return__button">Retornar</button>
+            </div>
+
+        </form>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="../register/scripts/index.js"></script>
+
+</main>
+</body>
+</html>

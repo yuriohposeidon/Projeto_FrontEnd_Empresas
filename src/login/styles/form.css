@@ -1,0 +1,91 @@
+.section__container{
+    background-image: url(../../images/Rectangle\ 7.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+    width: 100vh;
+    height: 100vh;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.login__title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 40%;
+
+    border-radius: 0px;
+
+    background-color: rgba(255, 255, 255, 0.9);;
+
+    margin: 0 auto;
+    padding: 20px;
+
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+form input{
+    border: solid 0.1px;
+    border-radius: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+
+    padding: 5px 5px 5px 10px;
+}
+
+form select{
+    border: solid 0.1px;
+    border-radius: 1px;
+    border-color: rgba(0, 0, 0, 0.2);;
+
+    padding: 5px 5px 5px 10px;
+}
+
+.button__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login__button{
+    color: var(--color-white);
+    background-color: var(--color-blue);
+
+    font-size: 14px;
+
+    padding: 5px;
+
+    border: transparent;
+
+    cursor: pointer;
+    
+}
+
+.or{
+    text-align: center;
+}
+
+.register__button{
+    color: var(--color-blue);
+    background-color: var(--color-white);
+
+    border: solid 1px var(--color-blue);
+
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 5px;
+    
+    cursor: pointer;
+}

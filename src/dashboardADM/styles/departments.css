@@ -1,0 +1,100 @@
+.div__organization{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 75%;
+
+    margin: 0 auto;
+}
+
+.title__departments{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.select__company{
+    border-radius: 15px;
+
+    padding: 1px 15px;
+}
+
+.button__create{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+    padding: 5px 15px;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    background-color: var(--color-blue);
+    color: var(--color-white);
+
+    border: 1px solid transparent;
+
+    cursor: pointer
+}
+
+.image__button{
+    width: 18px;
+    height: 18px;
+}
+
+.list__container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid;
+
+    width: 345px;
+    height: 160px;
+
+    padding: 25px;
+}
+
+.department__name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.department__description{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.company__name{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button__container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button__view{
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.button__edit{
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.button__delete{
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}

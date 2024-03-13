@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Kenzie Empresas</title>
+</head>
+<body>
+    <header>
+        <div class="mobile__organization">
+            <div class="name__header">
+            <img class="eclipse" src="../images/Eclipse.svg" alt="eclipse">
+            <span class="name__companie">Kenzie Empresas</span>
+            </div>
+        
+            <div class="menu hidden">
+                <button class="home__header"> Home </button>
+                <button class="register__header"> Cadastro </button>
+            </div>
+        </div>
+
+        <button class="button__hidden"><img src="../images/Vector.svg" alt="seta"> </button>
+    </header>
+<main>
+    <section class="section__container">
+        <!-- <img class="background__image" src="./images/Rectangle 7.svg" alt=""> -->
+        <div class="main__container">
+            
+            <form class="login">
+                <h2 class="login__title">Login</h2>
+                <h3 class="sub-title">Preencha os campos para realizar login</h3>
+            <label class="email__form" for="yourEmail"></label>
+            <input class="input__login"
+            type="email" 
+            name="email" 
+            id="yourEmail"
+            placeholder="Seu e-mail"
+            required
+            >
+
+            <label class="password__form" for="yourPassword"></label>
+            <input class="input__login"
+            type="password" 
+            name="password" 
+            id="yourPassword"
+            placeholder="Sua senha"
+            required
+            >
+
+
+            <div class="button__container">
+            <button class="login__button">Login</button>
+
+            <span class="or">ou</span>
+
+            <button type="button" class="register__button">Cadastre-se</button>
+            </div>
+
+        </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="../login/scripts/index.js"></script>
+</main>
+</body>
+</html>
